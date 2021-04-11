@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Rakkas&display=swap');
+*{
+   font-family: 'Katibeh',
+   cursive;
+   text-align: center;
+   text-decoration: none;
+}
+p{
+    font-size:39px;
+}
+header{
+    margin-bottom: 750px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-text {
+    width: 500px;
+}
+
+.main-text h1 {
+    font-size: 3.5rem;
+    color: #1c3548;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+
+.main-text p {
+    color: #747474;
+}
+
+.portfolio-btn {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #04241e;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px #E2ECF3;
+}
+
+.portfolio-btn:hover {
+    background-color:#93B8CB;
+    transition: all ease 0.2s;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto auto 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#intro:hover{
+    background-color: #E2ECF3;
+    width: 100%;
+    transition: 1s;
+}
+#intro h2{
+    font-size: 65px;
+}
+#intro p{
+    font-size: 35px;
+}
+
+#intro strong{
+    font-size: 39px;
+}
+.intro-heading span {
+    color: #264553;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.intro-heading h2 {
+    color: #1c3548;
+    font-size: 3.3rem;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.s-box-container {
+    margin-top: 30px;
+}
+
+.intro-box {
+    padding: 0px;
+}
+
+
+
+
+.s-box-text strong {
+    color: #1c3548;
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.s-box-text p {
+    color: #747474;
+    font-size: 0.9rem;
+}
+h2{
+    border-top: 2px solid #5B859E;
+    font-size: 55px;
+    padding-top: 200px;
+}
+
+.side{
+    display: flex;
+    margin-bottom: 20px;
+}
+.one h3{
+    font-size: 40px;
+    color: #5B859E;
+}
+.one:hover{
+    background-color: #E2ECF3;
+}
+@media screen and (max-width:950px){
+    img{
+        display: none;
+    }
+}
+.article{
+    background: url("https://modo3.com/thumbs/fit630x300/78816/1481148041/%D8%A3%D9%87%D9%85%D9%8A%D8%A9_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D9%85%D9%8A%D8%AA_%D9%85%D9%86_%D8%A7%D9%84%D9%86%D8%A7%D8%AD%D9%8A%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9.jpg")
+    no-repeat center/cover ;
+    padding-bottom: 20px;
+}
+.text-1{
+    background-color: rgb(77, 76, 76);
+    color: #ededed;
+    padding: 20px;
+
+}
+#client {
+    width: 100%;
+    border-top: 1px solid rgba(58, 58, 58, 0.03);
+    border-bottom: 1px solid rgba(58, 58, 58, 0.03);
+    padding: 50px 0px;
+    background-position: center;
+    background-size: 1000px;
+}
+
+.client-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.client-box {
+    width: 310px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.client-box strong {
+    color: #1c3548;
+    margin: 0px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+
+
+.client-box p {
+    color: #747474;
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    display: -webkit-box;
+    max-width: 80%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.client-box a {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #1F2338;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+}
+
+.client-box a {
+    width: 140px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+.client-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1);
+    background-color:#F2F2F2;
+    transition: all ease 0.2s;
+}
